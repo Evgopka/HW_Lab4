@@ -31,4 +31,4 @@ def login():
         return 'Пользователь не найден'
     else:
         return render_template('account.html', full_name=records[0][1], login=records[0][2], password=records[0][3])
-#здесь был максс
+#здесь был максим
